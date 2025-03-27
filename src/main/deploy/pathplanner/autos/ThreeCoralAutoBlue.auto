@@ -1,0 +1,43 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "FirstCoralBlue"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SecondCoralIntakeBlue"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "SecondCoralBlue"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ThirdCoralIntakeBlue"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "ThirdCoralBlue"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
