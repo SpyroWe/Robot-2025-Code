@@ -451,6 +451,7 @@ public double getSwerveTranslationYFirst(DoubleSupplier translationY, BooleanSup
       // acctually moves robot
       // autoalign integrated drive code
       //very shady code here
+      // y and b are really something else
       if(autoButtonUsed(y, b)){
       swerveDrive.drive(
           new Translation2d(getSwerveTranslationXLast(translationX, y, b), getSwerveTranslationYFirst(translationY, y, b)),
